@@ -1,0 +1,171 @@
+* { /*todo
+    padding: 0;*/
+    /*color: #f00;*/
+   /* margin: 0;*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 30px;
+    /*font-weight: 100;
+    /*box-sizing: border-box;/*para que la caja sea verdaderamente del tamaño*/
+}
+button{ /*tipo*/
+    color: aquamarine; 
+}
+.titulo-h2{ /*Clase*/
+    color: pink; 
+}
+#xd{ /*identificador*/
+    color: yellow; 
+}
+[rancio="sii"]{ /*pUede ser cualquier atributo-Por atributo*/
+    color: black;
+}
+/* h2 p{ *Lo que esta uno dentro de otro
+    color: black;
+}
+h2 b{
+    color: yellowgreen;
+}
+h2 p:hover { /*pseudoclase
+    color: blueviolet;
+}
+.color-red{
+    color: gainsboro;
+}*/
+/*h1{
+    color: green !important;*Mayor nivel de especifiquidad
+}*/
+.form__input:--active{
+    color: #f00;
+}
+.form__input{
+    color: aquamarine;
+}
+
+/*.contatc-form__h2{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+    font-weight: 900; /*grosor de la letra
+    color: blueviolet;
+} */
+.contatc-form{
+    font-size: 25px;
+    /*width: 50vw;
+    background-color: black;
+    height: 100vh;*/
+}
+
+/*div{
+    background-color: yellow;
+    display: block;
+    position: absolute;
+
+}
+.contenedor{
+    background-color: yellow;
+    position: relative;
+    margin: 50px auto;
+    border: 4px solid red;
+    height: 500px;
+    width: 500px;
+}
+div div{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+}*/
+/*.caja1{
+    outline: 5px solid red; *no ocupa espacio mientras que el border si
+    background-color: #f00;
+    top: 0;
+
+}*/
+/*.caja2{
+    background-color:  navy;
+    right: 0;
+    /*position: relative;/*relative sigue conservando el mismo espacio
+    punto de referencia*/
+    /*top: 50px;/*mover 20 hacia abajo, mas importante*/
+    /*left: 50px;/*mas importante*/
+    /*z-index: 1;/*el valor mas alto es el que aparece primero en la vista
+}*/
+/*.caja3{
+    background-color: pink;
+    bottom: 0;
+    right: 0;
+    opacity: .2 ;opacidad
+}
+.caja4{
+    background-color: blueviolet;
+    bottom: 0;
+}
+.caja5{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}*/
+/*para poner un div contenido dentro de otro div 
+debajo debemos dar position relative al primero y luego al otro
+dar un  no definido z-index negativo aunque esto podria dar problemas*/
+/*.caja-fixed{
+    background-color: #f00;
+    position: fixed; *se queda fijo en la pantalla
+    margin: -180px;
+}*/
+/*margin -180 y el padding de el body es para que
+ no tape el texto, el sticky es una mezcla el relative y 
+ fixed position fixed y le damos el top hasta donde va */
+/*body{
+    padding-top: 180px;
+}*/
+/*p {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    border: 10px solid red;
+    background-color: yellow;
+    /*overflow: auto;en caso de que el contenido sobrepase la caja 
+    nos da la posibilidad de scrolear puede ser auto o scroll o hidden para ocultarlo
+    display: block;//display es par 
+    organizar los bloques- inline,inline-block y block que el que esta por defeto
+}*/
+
+/*.contenedor div{
+    float: right;
+}
+.primario{
+    background-color: red;
+    width: 60%;
+}
+.secundario{
+    background-color: yellow;
+    width: 40%;
+}*/
+/*.cont{
+    margin: auto;
+    margin-top: 50px;
+    border: 4px solid red;
+    background-color: yellow;
+    width: 50px;
+}
+.cont{
+    width: 50%;
+}
+.cont img{
+    float: left;
+    width: 300px;
+    margin-right: 18px;
+}*/
+.texto{
+    padding: 20px;
+}
+.texto::first-line{ /*primera linea o primera letra solo a los que no son inline*/
+    color: blue;
+    font-size: 20px;
+}
+/*input::selection cuando se seleciona or ::placeholder lo que va por
+ debajo; ::before no se puede seleccionar ::after despues tampoco se puede 
+ seleccionar* esto son pseudoelemenos/
